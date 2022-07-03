@@ -14,7 +14,11 @@
             "depConstraints": [
               {
                 "sourceTag": "scope:store",
-                "onlyDependOnLibsWithTags": ["scope:store", "scope:shared"]
+                "onlyDependOnLibsWithTags": [
+                  "scope:store",
+                  "scope:shared",
+                  "scope:test"
+                ]
               },
               {
                 "sourceTag": "scope:api",
@@ -25,7 +29,8 @@
                 "onlyDependOnLibsWithTags": [
                   "type:feature",
                   "type:ui",
-                  "type:util"
+                  "type:util",
+                  "scope:test"
                 ]
               },
               {

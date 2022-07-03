@@ -25,6 +25,9 @@
       "@bg-hoard/store/util-formatters": [
         "libs/store/util-formatters/src/index.ts"
       ],
+      "@bg-hoard/test/util-mock-games-api": [
+        "libs/test/util-mock-games-api/src/index.ts"
+      ],
       "@bg-hoard/util-interface": ["libs/util-interface/src/index.ts"]
     }
   },
