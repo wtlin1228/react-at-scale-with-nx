@@ -18,6 +18,8 @@ import { StoreFeatureGameDetail } from '@bg-hoard/store/feature-game-detail';
 import { Game } from '@bg-hoard/util-interface';
 
 export const App = () => {
+  console.log('this console.log is used to test the GitHub Nx Cloud bot');
+
   const [state, setState] = useState<{
     data: Game[];
     loadingState: 'success' | 'error' | 'loading';
