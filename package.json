@@ -72,6 +72,7 @@
     "react-dom": "18.2.0",
     "react-router-dom": "6.3.0",
     "regenerator-runtime": "0.13.7",
+    "surge": "0.23.1",
     "tslib": "^2.3.0"
   }
 }
